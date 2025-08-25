@@ -11,10 +11,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
+  color: #4d5ae5;
 }
 .web-logo .logo-text {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .web-logo .logo-studio {
   color: #000000; /* чорний колір для Studio */
@@ -48,4 +48,231 @@ body {
 .contact-link:hover,
 .contact-link:focus {
   color: #404bbf;
+}
+/* Main section */
+.main-section {
+  background-color: #2e2f42;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.main-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.main-button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: #404bbf;
+}
+
+/* Advantages section */
+.advantages-section {
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.advantages-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  line-height: 1.2;
+  color: #434455;
+  text-align: center;
+  margin-bottom: 40px;
+  display: none;
+}
+
+.advantages-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.advantages-item-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #2e2f42;
+  margin-bottom: 12px;
+}
+
+.advantages-item-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #434455;
+}
+/* section */
+.section-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 32px;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-top: 16px;
+}
+
+.team-role {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin-top: 8px;
+}
+/* portfolio */
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-top: 16px;
+}
+
+.portfolio-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin-top: 8px;
+}
+/* Секция */
+.our-team {
+  background-color: #f4f4fd; /* фон секции */
+  padding: 50px 20px;
+}
+
+/* Заголовок секции */
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 40px;
+}
+
+/* Список и пункты */
+.our-team ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.our-team li {
+  background-color: #ffffff; /* фон пункта */
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Заголовок внутри пункта */
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin: 15px 0 10px;
+}
+
+/* Параграф внутри пункта */
+.team-role {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin: 0;
+}
+.our-team li img {
+  width: 100%; /* изображение растягивается под ширину карточки */
+  height: auto; /* сохраняет пропорции */
+  display: block; /* убирает лишние пробелы под img */
+}
+
+.our-team ul {
+  display: flex;
+  flex-wrap: wrap; /* перенос карточек на следующую строку */
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.our-portfolio {
+  background-color: #f4f4fd;
+  padding: 40px 20px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px;       
+  justify-content: center; 
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+}
+
+.portfolio-item {
+  background-color: #FFFFFF;
+  width: 360px; 
+  height: 420px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center; 
+}
+
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin: 10px 0 5px;
+}
+
+.portfolio-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin: 0;
 }
