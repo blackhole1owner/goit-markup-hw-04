@@ -49,7 +49,31 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contact-link :hover,
-.contact-link :focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
+}
+.main-section {
+  background-color: #2e2f42;
+}
+.main-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.main-button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.main-button:hover,
+.main-button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
 }
