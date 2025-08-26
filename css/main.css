@@ -2,8 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  margin: 0;
-  padding: 0;
 }
 
 /* Сброс дефолтных стилей списков и ссылок */
@@ -17,6 +15,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
 .web-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -26,9 +25,11 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .logo-text {
   color: #2e2f42;
 }
+
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -36,26 +37,32 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
 }
+
 .contact-info {
   font-style: normal;
 }
+
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .contact-link:hover,
 .contact-link:focus {
   color: #404bbf;
 }
+
 .main-section {
   background-color: #2e2f42;
 }
+
 .main-title {
   font-size: 56px;
   line-height: 1.07;
@@ -63,6 +70,7 @@ a {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+
 .main-button {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
@@ -72,11 +80,13 @@ a {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
+
 .main-button:hover,
 .main-button:focus {
   background-color: #404bbf;
   cursor: pointer;
 }
+
 .advantages-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -84,15 +94,18 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .advantages-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .our-team {
   background-color: #f4f4fd;
 }
+
 .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -101,6 +114,7 @@ a {
   text-transform: capitalize;
   color: #2e2f42;
 }
+
 .section-item {
   background-color: #ffffff;
   font-weight: 500;
@@ -109,18 +123,21 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .portfolio-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .team-role {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .team-name {
   font-weight: 500;
   font-size: 20px;
@@ -128,9 +145,11 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .footer-main {
   background-color: #2e2f42;
 }
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -140,22 +159,17 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .footer-span {
   color: #f4f4fd;
 }
+
 .footer-title {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
-.section-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
+
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
