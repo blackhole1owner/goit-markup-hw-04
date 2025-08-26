@@ -115,9 +115,6 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.our-portfolio {
-  color: #2e2f42;
-}
 .team-role {
   font-size: 16px;
   line-height: 1.5;
@@ -167,5 +164,5 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #2e2f42;
 }
