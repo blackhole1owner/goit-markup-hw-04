@@ -11,10 +11,10 @@ ul {
     margin: 0;
 }
 
-/* УБИРАЕМ ГЛОБАЛЬНЫЙ СБРОС ДЛЯ ССЫЛОК - он мешает */
+/*  мешает */
 /* a {
     text-decoration: none;
-    color: inherit;
+    color: inherit;x
 } */
 
 /* ===== HEADER STYLES ===== */
