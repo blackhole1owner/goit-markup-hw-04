@@ -11,6 +11,11 @@ ul {
     margin: 0;
 }
 
+/* ===== IMAGE STYLES ===== */
+img {
+    display: block;
+}
+
 /* ===== UTILITY CLASSES ===== */
 .visually-hidden {
     position: absolute;
